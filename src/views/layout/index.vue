@@ -1,6 +1,6 @@
 <template>
   <div>
-      layout页面
+      我是layout页面
   </div>
 </template>
 

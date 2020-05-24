@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div id="app">
+    <!-- 通过router-view配置页面 -->
     <router-view></router-view>
   </div>
 </template>
@@ -11,5 +12,7 @@ export default {
 </script>
 
 <style lang="less">
-@import "./styles/base.less";
+//导入全局less样式 两种方式
+// @import './styles/base.less';
+@import url('~@/styles/base.less');
 </style>
